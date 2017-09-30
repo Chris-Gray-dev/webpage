@@ -1,0 +1,159 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #efeff6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-y: hidden;
+
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #FCB040;
+  transition: all 0.3s ease 0s;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+header {
+  display: inline;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+
+img.logo {
+  height:60px;
+}
+
+.links {
+  display: inline;
+  position: absolute;
+  right: 5%;
+  padding: 20px 20px 40px 40px;
+}
+
+.links a {
+  font-size: 14pt;
+  color: #0A5180;
+  padding: 10px 20px 10px 20px;
+}
+
+.links a:hover {
+  color: #FCB040;
+  transition: all 0.3s ease 0s;
+}
+
+.information {
+  display: inline;
+  position: static;
+  color: #ffffff;
+}
+
+.info {
+  font-size: 12pt;
+  position: static;
+  padding: 10px 10px 20px 20px;
+  display: inline;
+}
+
+img.icon {
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  padding: 0px 15px 0px 0px;
+}
+
+.home {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  display: block;
+  position: relative;
+  margin-top: 265px;
+  margin-bottom: 220px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
+
+.home h2 {
+  font-size: 50pt;
+}
+
+.home a {
+  display: inline-block;
+  width: 115px;
+  margin: 10px 15px 10px 15px;
+  padding: 15px 25px 15px 25px;
+}
+
+.about {
+  background-color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.about h2 {
+  color: #000000;
+  font-size: 24pt;
+  padding: 70px 10px 20px 10px;
+  text-align: center;
+}
+
+.aboutpic {
+  height:266px;
+  margin: 70px 50px;
+}
+
+p.desc {
+  margin: 50px;
+  margin-bottom: 50px;
+  font-size: 16pt;
+}
+
+a.desc {
+  font-size: 16pt;
+  color: blue;
+}
+
+footer {
+  display: inline-block;
+  position: static;
+  text-align: center;
+  bottom: 0px;
+  background-color: #303030 ;
+  width: 100%;
+  margin: 0;
+  padding: 20px 0 30px;
+}
+
+footer h2 {
+  margin-bottom: 50px;
+}
+
+.copyright {
+  color: grey;
+  padding-top: 50px;
+}
+
+.icon {
+  height: 40px;
+  weight: 40px;
+}
